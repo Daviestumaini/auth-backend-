@@ -17,7 +17,7 @@ app.use(cors());
 //  The server resposnd with a JSON object. It will send back a JSON response with a key 'message' and value 'hello world'
 
 app.get("/hello", (req, res) => {
-  res.json({ message: "hello world!" });
+  res.json({ message: "Hello World!" });
 });
 
 app.get("/", (req, res) => {
@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 });
 
 // Choosing a PORT where the server will run
-const PORT = 3000;
+const PORT = 5000;
 
 // Starting the server and listen to the choosen port
 // The call back function runs once the surver is up
